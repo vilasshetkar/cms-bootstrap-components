@@ -1,0 +1,97 @@
+.card {
+    height: 500px;
+    overflow: hidden;
+}
+
+.card:hover.bg-1 {
+    background-image: url(https://i.pinimg.com/originals/82/c6/c5/82c6c51c6f540bbaf45884622169aa3a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    box-shadow: 12px 12px 10px 0px #00000080;
+}
+
+
+.card:hover.bg-2 {
+    background-image: url(https://w0.peakpx.com/wallpaper/425/619/HD-wallpaper-atlantis-bachir-phactory-dubai-palm-island.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    box-shadow: 12px 12px 10px 0px #00000080;
+}
+
+
+.card:hover.bg-3 {
+    background-image: url(https://images.pexels.com/photos/1643130/pexels-photo-1643130.jpeg?cs=srgb&dl=pexels-aron-visuals-1643130.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    box-shadow: 12px 12px 10px 0px #00000080;
+}
+
+.card:hover .card-body {
+    transform: translateY(150px);
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.card:hover .card-body p {
+    display: none;
+    transition: all 1s ease-in-out;
+}
+
+.card:hover img {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.bg-1 {
+    animation: fade-in-left 1.5s linear;
+}
+
+@keyframes fade-in-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.bg-2 {
+    animation: fade-in-left 1s linear;
+}
+
+.bg-3 {
+    animation: fade-in-left 0.5s linear;
+}
+
+.maintext-1 {
+    animation: zoomin 1s linear;
+}
+
+.maintext-2 {
+    animation: zoomin 2.5s linear;
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

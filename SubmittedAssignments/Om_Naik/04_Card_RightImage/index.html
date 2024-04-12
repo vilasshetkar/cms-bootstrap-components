@@ -1,23 +1,76 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 <!-- Card - Image Right -->
-<div class="card rounded-pill position-absolute top-50 start-50 translate-middle text-bg-primary text-center border border-0" style="width: 600px;">
+<div class="card rounded-pill position-absolute top-50 start-50 translate-middle text-bg-primary text-center border border-0"
+    style="width: 600px;">
     <div class="row">
         <!-- Card - Image Right -->
-        <div class="col-md-6 d-flex align-items-center ps-5 pe-0">
+        <div class="col-md-6 d-flex align-items-center pt-5 ps-5 pe-0 flex-column">
             <!-- Card Body -->
-            <div class="card-body">
+            <div class="card-body mt-2">
                 <!-- Card Header -->
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Twitter</h5>
                 <!-- Card Body Content -->
-                <p class="card-text text-primary-emphasis">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card-text text-primary-emphasis">
+                    <p>From breaking news and entertainment to sports and politics, get the full story with all the live
+                        commentary.
+                    </p>
+                    <p class="d-none">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                    </p>
+                </div>
                 <!-- Card Footer -->
                 <p class="card-text fw-bold d-none"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+            </div>
+
+            <ul class="list-group list-group-flush d-none">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+            </ul>
+
+            <div class="card-body p-0">
+
+                <!-- Card Links -->
+                <div class="mb-3 d-none">
+                    <a href="#" class="card-link">
+                        <span>Facebook</span>
+                        <span class="bi bi-facebook"></span>
+                    </a>
+                    <a href="#" class="card-link">
+                        <span>Twitter</span>
+                        <span class="bi bi-twitter"></span>
+                    </a>
+                    <a href="#" class="card-link">
+                        <span>LinkedIn</span>
+                        <span class="bi bi-linkedin"></span>
+                    </a>
+                </div>
+
+                <!-- Card Buttons -->
+                <div class="mb-3">
+                    <a href="#" class="btn btn-primary d-none">
+                        <span>Facebook</span>
+                        <span class="bi bi-facebook"></span>
+                    </a>
+                    <a href="#" class="btn btn-primary">
+                        <span>Twitter</span>
+                        <span class="bi bi-twitter"></span>
+                    </a>
+                    <a href="#" class="btn btn-primary d-none">
+                        <span>LinkedIn</span>
+                        <span class="bi bi-linkedin"></span>
+                    </a>
+                </div>
             </div>
         </div>
         <!-- Image -->
-        <div class="col-md-6 p-5">
-            <img src="https://via.placeholder.com/300" class="card-img rounded-circle border border-2 border-dark" alt="Placeholder image">
+        <div class="col-md-6">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ8NDQ0NDQ0NDg8NDQ0NDQ8NDQ0NFhEWFhURFRUYHSggGBolGxYVIT0hJSkrLjAxFx8zODUvNzQtLisBCgoKDg0OGhAQFSseHSArLS0tLi0tKysrLS0uLS0tLS0rLSstKy0vLS0tLi0rLS0rLSsrKy0rKysrKy0rKysrK//AABEIAKgBLAMBEQACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAAAQIDBAUGB//EAD4QAAIBAgIHBAgCCAcAAAAAAAABAgMRBBIFITFBUWFxBhNC8AcUFiIygZGhFSMkU2JykrHB0UNEUmOCouL/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQMEAgUG/8QALxEBAAICAQMBBgYCAwEAAAAAAAECAxExBBIhQQUTIjJRYXGBscHR8FLxkaHhQv/aAAwDAQACEQMRAD8A8jNzCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAClyXEjadSZ1x+zG4T2yjOuP2Y3B2yZ15TG4O2TOvKY3B2yZ15TG4O2TOvKY3B2yZ15TG4O2TOvKY3B2yZ15Q3B2yZ0NwdsqkwjSSUAAAAAAAAAAAAAAAAAAAAAAAAAAARJ2ITEbUKLl04EamXUzFWyweiJVNiLIx/VTOSZ4Zvs9I693BuyfZ6Q93Bux7PSHZU3ZPs9IdlUbsez0vKHZU3b6ns8/KHZBu31T7OsdlTdvqezr8odlTdvqezr8odlTdvqt1tASSHZBu0NPicI4Pgyu1NLK5N+JWoy3P6kOpj6KyXIAAAAAAAAAAAAAAAAAAAAAAAAALtDDOfvbtxdTFMxtxfLFfC5SglIjWpcWncOp0XVioo7lNJ8Nl38eRDtPfx5APWI8gHrEeRAesR5Eh6xHkA9YjyAj1mID1mPICmVXPaMU5SlqjGKcpN8EltCJmIjy5XS9s7VrNOzTVmnwYtwqid23DAjhc61E1xd0O5y9ssZxabT2ootXU6W7ifMBAAAAAAAAAAAAAAAAAAAAAAAAFr2XF2JrG5G9yqFJdD1NRWjzNzbI1E6ms868+W+K+GRRxrjsYi7nsmOF/8TlxJ74NWPxOXEd8GrH4lLiO+DVkfiUuI74NWPxKXEd8GrN7oHQ+Kxse8vGhh727+qnaX7kdsv5cy3HS1+IUZc0Y+Z8uoodmcJFfmVsVVe9xdOlH5Kzf3NUdJLLPWW9EV+yOHqL9HxlajPcsRGM4N8LpKxxfprV9HVern1aNdlNIqs6VSNOnTjZvESqJ0XHjHxN8rFNcdpnUQvnqKxG9ujwuGpYCn+XJyqSTVTEz1SatdqK8MfLPRwdNEebMGXPbJMQ85x+CxM6U8fOlKFCpUcozqNQlPPLU4xfvSWvalY8q/dbd9eP5erTsrMU35WtGz12L+nlX1FfCxpamo1E1vOOqrqdrOltuumEZGgAAAAAAAAAAAAAAAAAAAAAAATH4o9TunzE8S2mKqvIuhtyW+Fix1+Jp6ktZgtLfEM/RuhMXiqVWvh8POtSoaqkoWbTteyje8nbgntQrS1o3Di+SlZiLTrbX5mczEu9Gc5Tozg0ZyYNOh7F6FWOxDdW/q2HSqVt3eNv3KSfNp/JM09Ph95b7MvVZvdU8czw9QlK9lZKMUoxjFWjGK2JLcj261isah4czMzuVJ0gAlybsm27bLvYRqErbUI3qVEpuKeWMtcIri14n9hO7fDHiHO+2e6XnXbjTUsRWVHM5KDzz16s1vdj8k7/NHne0csRMYa+nmfxer7NwzFZy25nj8GkwM7My4Z8teavhd0pK+Xqd9RO3HTxrbCMjQAAAAAAAAAAAAAAAAAAAAAAAJW2PU6ryeks/E/D8jZk4ZcfzNVMw2boet9h74fR2FdN2c4yrS/ac5N6+OpRXyPX6XFWcMb9Xh9ZeZzz9vCjtN2Oo6Sbr4Rww2NeupSlqo4h8f2Zc/qt5Rn6aY8/3813T9X2/Dbj+8fw8x0lo2vhKjpYmjOjUXhmviXGLWqS5psw2pMcvUreLRus7YtjjTrZYnSHp3YGgqejoyXxV61WrL/i+7iv8Aq/qev0VNU39XjdfbeXX0j/10JtYQCQAHNdstLSwtJe41nbjTb+Gcktb6IrzdRXBTu5n0j++i/pumnPfU/LHLzOU3JuUm3Jttt7W3tZ89NptO5ncy+hiIiNQy8HtNGLlRl4XtI+HqWdRwrwerEMi8AAAAAAAAAAAEgAAAAAAAAAACN66nVeT0ln4n4UbL/KzY/mauZhs21eqdi8SqmjqFttOLpPk4yaPc6SYnDWf748PC62vbmt9/Ld3NDIvVqsa9PucVRp4ql/prRUmuafEz36aluPC2ma1J3Eubx/YTR1a7oVcRg5Pwv8+kn8/e+5kv0U+jbT2haPmjf9/vo1Fb0a1f8LH4SpwzxqUn9sxTPS3Xx1+P6Om0Do2pgsLTw1aVOc6ef3qMnOm1KbkrNpPfwPS6as1xxE8vO6m9b5JtXiWeXs4AAAch6TF+iYd71iZL603/AGPO9o/LH4/tL0/Zvz2/D94eeI8mHrszB7TTiZ8vC/pHw9SzPwqwerFMq8AAAIAkAAAAAAAAAAAAAAAAAAN66nVeT0lnYj4TXf5WbH8zVVDFZtq7z0aYbEulXqQjGeGVTK4qX5saiim2o742a+mw9H2deYiYtPwzx+LzfaMVmY/y/Z2adz1HlBCAAAAAAAADivSVV/JoQ/35y+kGv6nn+0/kr+P7PS9l+bWn7fu4JHkQ9hmYPaacXLPl4X9IeHqizPwrwerGMq4AAAAAAAAAAAAIAAAAAAAAAACHtXU6rymOJZ2I+FGu/DNT5mrqGKzbV2no0xyi6+Hbs241oa7N6ssv5R+p6Ps28TFqfn+0/s832lSfhv8Ak7yUm3du74vaenEa4eUglAAAAAAAA2B5r6QcTnr0af6unKb6zl/5+55XtS3x1r9I/X/T2PZVNYpt9Z/v6uXR5kPSZeE2mnEoy8MjH+HqizPwqwerGMq0AAAAAAAAAAAEgAAAAAAAAAACJbuqOq8pj1Zlf4Ua78M9PmayoYrNkLmAxs8NWhXpv3oO9t0lvi+TQxZbYrxevoZMcZKzWfV6voTTdHGU1OEkpbJQbtKMuDPo8d65ad9PMfp9pfOZsVsVu23+2zOlQAAAAAACxjKmWD3X1fLed0jcuL8aj1eQaZxnrGJq1vDKdofuL3Y/ZJ/M+a6nL73La/pM/wDT6nBj93jin0YiKYWSy8JtNOJRl4X8f4eqLM3CrD6rBlWgAAAAAAAAAAAAAAAAAAAAAACJbuqOo5TDMr/Car8M9PmayoY7NkLbK3brfR3paNGrUw1RU3HEZZRc4RlecU/d18v5M9H2deO6aT4meP4ef7RxTakXj05ei6tySXJWR7DxAAAAAAAHG9uNMZKbpQfv1U4RttUPFL+nzM/W5vc4dR81vH5es/s1ez8Hvc3fPy1/V58j559CqRMIllYTaaMSjJwyMd4eqLc3CvD6rBlWAAAAAAAAAAAAAAAAAAAAAAACJbuqJjlMMut8K6Gu/DPT5mtmY7NkKDh0K6aabTTTTTs01saOo3E7gdvoDtolFU8Xqa1Krul14P7Ht9P11Mkayz22+vpP8fo8fqegtE92LzH09f8A39XY4PG066zUm5re4puK6tajbMa87h50xMeJiYZJygAAANRp7S0MNTk3K1lr49FzFr1x1m951EJpjtmt2UeV6QxksRVlVnteqK3RjuR851Ge2a83t+X2h9Lgw1w0ilWOihaqR1CGVhdpoxcqcnDIx3h6oszcKsPqsGZYAAAAAAAAAAACSQAAAAAAAAAAKZ7uqJjlMMqt8HyNVuFFfma2oY7NdW1w/ZjSFRKUMBimnsbpOF/4rCMd/o4nPijm8MzD9h9J1Gv0R0lvlWq0qcV1V7/RFkYrz6K56rDX/wCnQ6L9H1Gm1PHYjv2v8vhrxp34SqPW10S6mvF0Np82ZMvtH0xx+cusgowhGlShClShqhSppRhFdOPM9PHirjjUQ8y97Xndp2FjgANgaHTnaOlhotKSctmrXr4JbyvLmpijuvK3DgyZp1SPH1ebaV0nUxU803aKfuwvqXN8WeD1PVWz28+IjiP76vf6fpqYK6rz9WGZmhIQlEwhlYXaaMSnJwyMb4eqLc3CrF6rRnWAAAAAAAAAAAABAAAAAAAAAAAU1NnRoOq8r9SonE02t4VVr8TAmzJZqhutE9rMXhbRVWdSmtWWc3dLkzXh6+9PF4i0ffn/AJ/lkzdDjyeY+Gft/DrMB24oVbKs5U5ftPV/Y9LF1nT34ntn7/y83J0OenEd0fZu6OlsPNXjVh9TXHnidskxMcxML/rdP9ZD+JDUudws1tKUIfFVgvmROo5l1ETPETLT47tjhqd1F52Z79XhpzZop0ee/Fdfi5bSvbGtWvGn7kfO4wZfaUz4pDfh9mVjzknbm6tWU5ZpycpPezzb3ted2ncvTrWKxqI0oOUpAkISmTAyMNKzL8cqckeF/FVLuK5osy22rx11tSUpAAAAAAAAAAABJAAAAAkQAAAAkApkrpriQROpY6qO1nuJi3hd2+drbZVMuohFzlKAJi2tja6OxMTMcTomN8q+/n+sn/Gzv3t/8p/5c9lf8YUSm3tk31bZxNpnmXUREcQpISASACACQFyRXCViysuZhdpPM77lqXUne5cW8RpeJVpAAAgAASQAAAAAAAAAAAAgkAlAEXIEXCdLFeF9a27+ZzaPotpPpKxcr2s0XIC42aRcbTouNmi5GzSLjZpNxs0XJ2aLjZpNxtGi4NFydpTBNuy+fImPLmZ0zIWSsi2FE+ZVXCNJCACSUJAEAAAEgQBIEAAAAAAACAFgIaCdocAnaiVN8SNOotCzOgzmarIvC26MuH3OOyXXfVS6UuBHbKe6EZHwHbKe6DI+A7ZNwjK+A1KdwZXwGpNwZXwGpRuE5HwHbJ3Qnu5cB2yd0HdS4DtlHdCe5lwJ7JO+qqNB7yYo5m8L0abO4hxNoXFAlxMqlElztVYAEJAAAAAAAAACQAAAAAIAAAAAJE2GjamxGk7Mo0bMg0bMnIaT3I7vkNHcd3yGjuRkXAaO4yLgNJ7jIuA0bMqI0jaco0bMoNmUG0pE6RtNidICAAAAkAAAAAAAABAAAASAAAAAAkSiYQqsdaQixGk7VKJ1FXO1apncVczZWqR12I709yT7tHejuSPdneh0SJxp71DpHM0dd6l0yJonuUuBz2p7kZTnSdosRpOyw0JSJQNCRBCSxAgAAAAAAAABIH//2Q=="
+                height="300" class="card-img rounded-circle border border-2 border-dark" alt="Placeholder image">
         </div>
     </div>
 </div>

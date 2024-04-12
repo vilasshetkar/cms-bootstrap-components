@@ -1,0 +1,62 @@
+.text-primary {
+    color: #EC268F !important;
+}
+
+.container {
+    background-image: url(https://i.pinimg.com/originals/d0/09/67/d009678eb5b1658468704f51bfc11173.gif);
+    background-repeat: no-repeat;
+    background-size: 1540px 730px;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+.card-1,
+.card-3 {
+    animation: fade-in-top 1.5s linear;
+}
+
+@keyframes fade-in-top {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.card-2 {
+    animation: fade-in-bottom 1.5s linear;
+}
+
+@keyframes fade-in-bottom {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+.animate-text {
+    animation: fade-in-left 1.5s linear;
+}
+
+@keyframes fade-in-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
