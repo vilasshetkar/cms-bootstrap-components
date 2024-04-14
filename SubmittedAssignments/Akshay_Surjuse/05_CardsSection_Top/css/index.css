@@ -1,0 +1,53 @@
+.forumGroup{
+		overflow:hidden;
+		<!-- box-shadow: 3px 3px 5px #999;  -->
+	}
+
+	.mainGroupImage{
+		max-width: 100%;
+		-webkit-transition: all 1s ease; /* Safari and Chrome */
+		-moz-transition: all 1s ease; /* Firefox */
+		-ms-transition: all 1s ease; /* IE 9 */
+		-o-transition: all 1s ease; /* Opera */
+		transition: all 1s ease;
+		position: relative;
+	}
+
+	.mainGroupImage:hover{
+		-webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+	}
+	
+	.overlay{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: white;
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+		transition: 0.4s ease;
+	}
+	
+	.mainGroupImage:hover .overlay{
+		top: 70%;
+		height: 100%;
+	}
+	
+	.text{
+		position: absolute;
+		top: 14%;
+		left: 40%;
+		transform: translate(-75%, -50%);	
+	}
+	
+	.text-1{
+		position: absolute;
+		top: 14%;
+		left: 50%;
+		transform: translate(-75%, -50%);	
+	}
