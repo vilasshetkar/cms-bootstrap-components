@@ -1,0 +1,79 @@
+<style>
+    .card-img-top{
+       transition: all 1ms;
+    }
+    .card-img-top:hover{
+        transform: scale(1.10);
+    }
+    .container{
+        background-color: bisque;
+    }
+    .card-body{
+        background-color: grey;
+    }
+</style>
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<section class="container">
+    <div class="py-5">
+        <div class="row d-flex">
+            <div class="col">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Mustang</h3>
+                        <div class="pb-1 text-muted">
+                            <p>One disadvantage of Lorum Ipsum is that in certain letters which is said more than.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf8yRj3rAcBbvlyJMu6tHBTQfSGBkT2Ryp_g&s" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQucH2Rw6lfenger77Bq91HWWHBU-JVnD0c9n4-wqqCkg&s" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Fresh Layouts</h3>
+                        <div class="pb-1 text-muted">
+                            <p>The most well-known dummy text is the 'Lorem', which well-known is said which is said.
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9UmlmqF2eEy-wmqE5FtCLoqI_KuFK7IHXVw&s" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Internal </h3>
+                        <div class="pb-1 text-muted">
+                            <p>Moreover, in Latin only words at the beginning of sentences which is said are
+                                capitalized.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mb-3 text-center">Mustang cars</h2>
+        <h3>this is subheading</h3>
+        <div class="mb-4 text-center">
+            <p>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit laboriosam nisi commodi
+                consequatur.</p>
+        </div>
+
+    </div>
+</section>
