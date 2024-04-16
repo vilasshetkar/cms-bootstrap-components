@@ -1,0 +1,37 @@
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    background-color: #ffc107;
+    color: white;
+}
+.hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+    transform: translateY(-10px);
+}
+.hvr-float {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+}

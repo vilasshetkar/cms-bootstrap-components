@@ -1,0 +1,13 @@
+.card-img-top{
+transition:transform 0.5s ease;
+}
+.card-img-top:hover{
+transform:scale(1.04);
+}
+p{
+transition:transform 0.2s ease-in-out;
+}
+p:hover{
+text-shadow:1px 1px 3px red;
+transform:scale(1.2);
+}
