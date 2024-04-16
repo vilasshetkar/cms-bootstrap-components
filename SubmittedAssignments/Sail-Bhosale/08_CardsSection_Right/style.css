@@ -1,0 +1,16 @@
+
+.card{
+	transition:1s;
+	}
+.card:hover{
+	transform: scale(1) rotatey(180deg);
+	}
+
+.top{
+margin-top:50px;
+}
+.card-img-top {
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+

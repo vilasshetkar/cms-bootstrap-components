@@ -50,7 +50,7 @@
         <div class="mb-3">
             <a href="#" class="btn btn-primary">
                 <span>Facebook</span>
-                <span class="bi bi-facebook d-none"></span>
+                <span class="bi bi-facebook"></span>
             </a>
             <a href="#" class="btn btn-primary d-none">
                 <span>Twitter</span>

@@ -2,14 +2,22 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<!--Reference link= "https://preview.colorlib.com/#passport" -->
 <link rel="stylesheet" href="style.css">
-<section class="container">
+<section class="container ">
     <div class="py-5">
 
-        <div class="row">
+        <div class="row ">
+            <div class="col-md-6 ">
+                <h3 class="mb-3 text-danger">ABOUT US</h3>
+                <h2>Explore All Corners of The World With Us</h2>
+                <div class="mb-4">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+&nbsp<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
+            </div>
             <div class="col-md-6">
                 <div class="row d-flex">
                     <div class="col">
-                        <div class="card top">
+                        <div class="card">
                             <img src="https://preview.colorlib.com/theme/passport/images/about_1.jpg" class="card-img-top" alt="Placeholder image">
                             <div class="card-body d-none">
                                 <h3 class="card-title d-none">Fully Responsive</h3>
@@ -24,7 +32,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card card">
+                        <div class="card card2">
                             <img src="https://preview.colorlib.com/theme/passport/images/about_2.jpg" class="card-img-top" alt="Placeholder image">
                             <div class="card-body d-none">
                                 <h3 class="card-title d-none">Fresh Layouts</h3>
@@ -41,10 +49,10 @@
                     </div>
                     <div class="col d-none">
                         <div class="card">
-                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Placeholder image">
-                            <div class="card-body">
-                                <h3 class="card-title">Modern Workflow</h3>
-                                <div class="pb-1 text-muted">
+                            <img src="https://preview.colorlib.com/theme/passport/images/about_1.jpg" class="card-img-top" alt="Placeholder image">
+                            <div class="card-body d-none">
+                                <h3 class="card-title d-none">Modern Workflow</h3>
+                                <div class="pb-1 text-muted d-none">
                                     <p>Moreover, in Latin only words at the beginning of sentences which is said are
                                         capitalized.</p>
                                 </div>
@@ -56,15 +64,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 ">
-                <h4 class="mb-3 text-danger">ABOUT US</h4>
-                <h1>Explore All Corners of The World With Us</h1>
-                <div class="mb-4">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-&nbsp<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                </div>
-            </div>
-            
         </div>
     </div>
 </section>
