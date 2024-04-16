@@ -1,0 +1,32 @@
+
+.invisible-span{
+  invisible: hidden;
+	position:absolute;
+	bottom: 25px;
+	left: 0px;
+}
+.card:hover .invisible-span{
+	visiblity: visible;
+	backgroung: #e0ebeb;
+	color: #17427;
+	height: 52px;
+	font-family: Fantasy;
+	width: 415px;
+	
+}
+
+/*.online{
+	invisible: hidden;
+	position: absolute;
+	bottom: 160px;
+	left: 0px;
+	
+}
+.card:hover .online{
+	visiblity: visible;
+	background: orange;
+	color: #17427;
+	height: 52px;
+	font-family: Fantasy;
+	width: 415px;
+}*/
