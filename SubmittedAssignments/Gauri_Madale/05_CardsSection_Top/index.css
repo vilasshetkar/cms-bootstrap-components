@@ -1,0 +1,44 @@
+body {
+	background-color:black;
+	color:white;
+}
+.card{
+	--bs-card-border-width:none;
+	 background-color:black;
+	
+}
+.card-title {
+	color:accent-color;
+	font-size:15px;
+	
+	
+	
+}
+p:hover{
+	--bs-caed-title-color:blue;
+	font-width:bold;
+}
+.pb-1 p{
+	 color:white; 
+	/* font-size:25px; */
+	/* font-style:bold; */
+	font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+	
+	
+}
+img:hover {
+	animation:pulse 1s ease-in-out;
+	
+}
+@keyframes pulse {
+	from {transform:scale(1);}
+	to {transform:scale(1.1);}
+		
+}
+.mb-3{
+    font-size:15px;
+}
+	
