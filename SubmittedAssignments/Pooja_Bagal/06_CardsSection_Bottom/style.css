@@ -1,0 +1,25 @@
+.flash {
+    
+    width: 380px;
+    height: auto;
+    transition: 2s;
+    filter:none;
+
+  }
+
+
+  .flash:hover{
+    filter: grayscale(100%);
+  }
+  
+  /*
+  .flash:hover {
+    animation: flash 0.5s ease-in-out; 
+    opacity: 0; 
+  }
+  
+  @keyframes flash {
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+  }
+  
