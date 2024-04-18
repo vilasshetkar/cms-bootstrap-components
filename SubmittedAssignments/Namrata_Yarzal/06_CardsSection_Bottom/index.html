@@ -1,0 +1,104 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- <link href="https://bbbootstrap.com/snippets/ecommerce-product-cards-39850823"> -->
+
+
+<style>
+.card {
+        transition: all 0.2s;
+        border-radius: 40px;
+        box-shadow: 0px 10px rgba(0 0 0 0.1);
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 20px rgba(0 0 0 0.2);
+    }
+
+    .card:hover:img {
+        filter: brightness(50%);
+        transform: perspective(100px) rotateY (360deg);
+        transform: perspective(100px) rotateY (-30deg);
+
+    }
+	.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+    body{
+    background-color:#eee;
+    }
+	 h2:hover {
+        color: green;
+        cursor: pointer;
+    }
+	a{
+		color:black;
+		text-decoration:none;
+	}
+	a:hover {
+       color: blue;
+	   cursor:pointer;
+	   text-decoration:underline;
+}
+	
+</style>
+
+<section class="container">
+    <div class="py-5">
+        <h2 class="mb-3 text-center">Ecommerce product cards</h2>
+        <!-- <h3>this is subheading</h3> -->
+        <div class="mb-4 text-center d-none">
+            <p>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit laboriosam nisi commodi
+                consequatur.</p>
+        </div>
+
+        <div class="row d-flex">
+            <div class="col">
+                <div class="card">
+                    <img src=".\img\img.png" class="card-img-top zoom" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title d-none">Trends 2018</h3>
+                        <div class="pb-1 fw-bold ">
+						             <a href="Trends 2018 text-bold"> Trends 2018</a>
+                            <p>2019 is the session for trending laptops and accessories</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src=".\img\img1.png" class="card-img-top zoom" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title text-center d-none">Sale -45%</h3>
+                        <div class="pb-1 fw-bold">
+						       <a href="Trends 2018">Sale -45%</a>
+                            <p>All new headphones with upto 45% sale.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src=".\img\img2.png" class="card-img-top zoom" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title text-center d-none">Trends 2018</h3>
+                        <div class="pb-1 fw-bold">
+						         <a href="Trends 2018">Trends 2018</a>
+                            <p>2018 trendy product here on BBBootstrap.com</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
