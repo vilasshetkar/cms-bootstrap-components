@@ -1,0 +1,16 @@
+.add {
+   
+    width: 380px;
+    height: 100%;
+    transition: 2s;
+    filter:none;
+  }
+  
+  .add:hover{
+    transform: scale(1.1);
+  }
+
+  .card-title:hover{
+    font-weight: bold;
+    --bs-card-title-color:red;
+  }
