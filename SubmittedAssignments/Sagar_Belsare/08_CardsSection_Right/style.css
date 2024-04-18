@@ -1,0 +1,37 @@
+        .p1{
+			position:absolute;
+			left:10px;
+			top:130px;
+		}
+		.button1{
+			position:absolute;
+			top:30px;
+			left:100px;
+			
+		}
+		.button2{
+			position:absolute;
+			top:90px;
+			left:100px;
+			border:1px solid blue;
+			color:blue;
+		}
+		
+		
+		.abc{
+			position: absolute;
+			top: 0px;
+			left: 0;
+			width: 307px;
+			height: 173px;
+			background-color: white;
+			opacity: 0;
+		}
+		
+		.card:hover .abc{
+			opacity:0.95;
+			box-shadow: -1px -1px 9px 1px rgba(77, 77, 77, 0.2);
+		}
+		
+		
+		

@@ -1,0 +1,20 @@
+:root{
+	--font-size-sm: 12px;
+}
+.card-title{
+	font-size:var(--font-size-sm);
+}
+.abc{
+	width:356px;
+	height:220px;
+	border-radius:3%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:black;
+	opacity: 0;
+}
+
+.card:hover .abc{
+	opacity:0.3;
+}

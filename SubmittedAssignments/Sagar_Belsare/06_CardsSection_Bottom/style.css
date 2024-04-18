@@ -1,0 +1,35 @@
+:root{
+    --color: #FDF9F3;
+	--color2: #E9922C;
+	--font-size-1: 16px;
+}
+
+.container{
+	background-color:var(--color);
+}
+h2{
+	color: #000000;
+    font-family: "Jost";
+
+}
+.card{
+	background-color:transparent;
+	border: none;
+}
+.card:hover{
+	
+	background-color:white;
+	box-shadow: -1px -1px 9px 1px rgba(77, 77, 77, 0.2);
+}
+.button{
+	position: absolute;
+	font-size: var(--font-size-1);
+	background-color:var(--color2);
+	left:33%;
+	top: 0;
+}
+.text{
+	margin-left:20rem;
+	margin-right:20rem;
+	text-align:center;
+}

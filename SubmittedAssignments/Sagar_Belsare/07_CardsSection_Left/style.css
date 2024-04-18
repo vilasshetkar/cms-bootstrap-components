@@ -1,0 +1,76 @@
+:root{
+	--a:#E6E6E6;
+	--b:#79B530;
+	--c:yellow;
+	--d:#087096;
+	--font-size-l: 18px;
+	--font-weight--bold: 700;
+	--font-size-m: 16px;
+    --font-size-s: 14px;
+    --font-size-xs: 12px;
+}
+
+.shared-item{
+    font-size: var(--font-size-l);
+    font-weight: var(--font-weight--bold);
+    line-height: calc(var(--font-size-m) + var(--font-size-xs));
+}
+.shared-item_cards{
+    text-decoration: line-through;
+    vertical-align: baseline;
+}
+.shared-item_cards-price{
+	color:var(--b);
+}
+.font{
+	font-size:var(--font-size-s);
+}
+.font:hover{
+	border-bottom: 1px solid black;
+}
+.fnt{
+	font-size:var(--font-size-xs);
+}
+.container{
+    background-color:var(--a);
+}
+.card:hover{
+	transition-property: transform;
+	transform: translateY(-1.5px);
+	transition-duration:0.3s;
+}
+
+.rt{
+	width:90px;
+	font-size: var(--font-size-s);
+	position:absolute;
+	bottom: 28px;
+	right:2px;
+}
+.rtt{
+    width:30px;
+	position:absolute;
+	bottom: 20px;
+	right:95px;
+}
+.button{
+	background-color:var(--b);
+}
+.btns:hover{
+	background-color: var(--d);
+	color:white;
+}
+.hidden{
+    color:red;
+	position:absolute;
+	right: 10px;
+	top: 100px;
+	z-index:-1;
+}
+.card:hover .hidden{
+	position:absolute;
+	z-index:1;
+}
+.bi{
+	font-size: var( --font-size-xs);
+}
