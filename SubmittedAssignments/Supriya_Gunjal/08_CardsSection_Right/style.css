@@ -1,0 +1,29 @@
+.btn
+{
+--bs-btn-hover-bg: lightskyblue;
+}
+
+
+.card-body {
+position: absolute;
+    left: 89px;
+    top: 209px;
+	color: lightskyblue;
+}
+
+.overlay {
+    position: absolute;
+    top: 148px;
+    bottom: 0;
+    left: 6px;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F5F5F5;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
