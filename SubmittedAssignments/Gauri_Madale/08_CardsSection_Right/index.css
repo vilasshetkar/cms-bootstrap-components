@@ -1,0 +1,35 @@
+.card{
+	--bs-card-border-width:none;
+	 
+	
+}
+.card-title:hover {
+	color:#ffa40c;
+}
+.mb-4{
+	margin-top:25px;
+	margin-left:115px;
+	margin-right:90px;
+}
+  .btn-primary{
+	color:white;
+	background-color:#ffa40c;
+	border-color:#ffa40c;
+}
+.btn-primary:hover{
+	background-color:#ffa40c;
+	border-color:#ffa40c;
+}
+.col-md-6 {
+	    --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 7;
+		
+}
+.card:hover{
+	 animation:bounce 1s ease-in;
+ 
+}
+@keyframes bounce {
+	from{transform:scale(1);}
+	to {transform:scale(1.1);}
+}
