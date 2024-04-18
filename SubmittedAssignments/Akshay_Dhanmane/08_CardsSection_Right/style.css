@@ -1,0 +1,41 @@
+:root{
+	--bs-card-title-color: red;
+}
+
+h3 {
+	color: #866528;
+}
+.card{
+	height: 100%;
+}
+
+.price{
+	color:#866528;
+}
+img{
+	animation:mymove 7s infinite;
+}
+@keyframes mymove{
+	50%{
+		-webkit-filter:grayscale(100%);
+		filter:grayscale(100%);
+	}
+}
+.invisible-span{
+	visibility:hidden;
+	position:absolute;
+	bottom:240px;
+	left:0px;
+	color:#866286;
+}
+.card:hover .invisible-span{
+	visibility:visible;
+	background:#f0e7e6;
+	background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(245, 242, 235, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+	color:#6d8dde;
+	height:30px;
+	/*font-family:Fantasy;*/
+	width:228px;
+}

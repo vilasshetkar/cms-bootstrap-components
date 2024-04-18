@@ -1,0 +1,22 @@
+.price{
+    font-size: 14px;
+    color: #866528;
+    text-align: center;
+}
+/*
+img{
+	background-color:coral;
+	animation: mymove 3s infinite;
+}
+@keyframes mymove {
+  10% {height: 200px;}
+}
+*/
+.card img{
+	transition:transform 0.3s;
+}
+
+.card:hover img{
+	color:blue;
+	opacity:0.5;
+}

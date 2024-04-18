@@ -1,0 +1,32 @@
+.card .border{
+    position: absolute;
+}
+.border img{
+    height: 150mm;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hvr-grow{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: red;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+
+.color-ch:hover{
+    background-color: brown;
+}
+
+.card img{
+    height: 150mm;
+}
+.card-body{
+position: absolute;
+
+}
