@@ -1,0 +1,8 @@
+.card{
+     transition : transform 0.2s;
+	 
+	
+	}
+	  .card:hover{
+	       transform:scle(1.04);
+		}
