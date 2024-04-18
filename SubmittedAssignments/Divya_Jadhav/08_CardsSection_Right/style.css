@@ -1,0 +1,48 @@
+
+	
+	
+	.btn-primary{
+    background-size: 220%;
+    box-shadow: 0 .2em .3em rgba(0, 0, 0, 0.15);
+    color: #3363ff;
+    background-color: transparent;
+    background-position: 100%;
+    border: 3px solid #3363ff;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 3px;
+    transition: all .2s ease-out;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-image: linear-gradient(110deg, #3363ff 0%, #3363ff 50%, transparent 50%, transparent 100%);
+    font-size: 14px;
+}
+
+	.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 .3em rgba(0, 0, 0, 0.25);
+    background-position: 0;
+    color: #fff;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+	.btn-primary:active {
+    transform: translateY(-1px);
+}
+	
+	
