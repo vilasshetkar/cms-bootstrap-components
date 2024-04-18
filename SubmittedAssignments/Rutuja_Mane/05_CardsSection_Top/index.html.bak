@@ -57,13 +57,13 @@
             <div class="col animation">
                 <div class="card border border-dark position-relative">
                     <img src="https://assets.ajio.com/medias/sys_master/root/20231106/1Z3J/65490804afa4cf41f5778250/-473Wx593H-469456922-blue-MODEL.jpg" class="card-img-top" alt="watch3">
-                    
+                    <span class="invisible-span text-md-center py-3"> Quick View </span>
 					<div class="card-body">
                         <h3 class="card-title text-md-center text-danger"> Uniquest </h3>
 						
 						<div class="card-text">
 							<span class="text1"> Blue Dial Analogue Fashion Watch with Mesh Strap For Women </span>
-						    <span class="invisible-span text-md-center py-3"> Quick View </span>
+						
 						</div>
                         <div class="pb-1 text-muted">
 						<span class="text-md-center"><span class="price1 text-dark fw-bold"> ₹.950 </span> <span class="text-decoration-line-through"> ₹.3,799 </span> <span class="offer1">(75% off)</span></span>

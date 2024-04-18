@@ -39,11 +39,11 @@
                 <span>Facebook</span>
                 <span class="bi bi-facebook"></span>
             </a>
-            <a href="#" class="card-link text-danger">
+            <a href="#" class="card-link">
                 <span>Twitter</span>
                 <span class="bi bi-twitter"></span>
             </a>
-            <a href="#" class="card-link text-danger">
+            <a href="#" class="card-link">
                 <span>LinkedIn</span>
                 <span class="bi bi-linkedin"></span>
             </a>
