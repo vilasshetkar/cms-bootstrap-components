@@ -1,0 +1,32 @@
+
+.text1
+{
+	font-family:"Times New Roman", serif;
+	font-size:5mm;
+}
+
+.invisible-span{
+	visibility: hidden; 
+	position: absolute;
+	bottom: 170px;
+	left:0px;
+	
+}
+
+.card:hover .invisible-span{
+	visibility: visible;
+	background: rgb(42, 47, 105,); /* Fallback color */
+    background: rgba(230, 230, 232, 0.5); /* Black background with 0.5 opacity */
+	height:18mm;	
+	font-family: Fantasy;
+	width: 413px;
+	
+}
+
+.animation{
+	transition: all 0.3s;
+}
+
+.animation:hover{
+	transform: scale(1.10);
+}

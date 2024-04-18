@@ -1,0 +1,32 @@
+.para1
+{
+	 font-family: "Times New Roman", Times, serif;
+}
+.title
+
+{
+	 font-family: "Times New Roman", Times, serif;
+}
+.invisible-span{
+	visibility: hidden; 
+	position: absolute;
+	bottom: 290px;
+	left:50px;
+	
+}
+
+.card:hover span.text-md-center{
+	visibility: visible;
+	border: 1px solid purple;
+	background: rgb(204, 165, 230); /* Fallback color */
+    background: rgba(250, 247, 252, 0.5); /* Black background with 0.5 opacity */
+	padding: 5px;
+	width: 100%;
+}
+
+p{
+	color: black;
+}
+p:hover{
+	color: purple;
+}
