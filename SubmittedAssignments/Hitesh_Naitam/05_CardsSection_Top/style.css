@@ -1,0 +1,6 @@
+
+  .card
+  {
+    transform: rotateX(45deg) translateY(50px) translateZ(100px);
+	
+	}

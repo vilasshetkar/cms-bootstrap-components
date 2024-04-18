@@ -1,0 +1,22 @@
+ .card  { 
+	 transition: all 0.3;
+ } 
+  
+  .card:hover {
+    transform:translateY(-5px);
+	box-shadow:5px 5px 5px 5px rgba (44, 44, 44, 0.5);
+	
+	}
+	
+	.card-body {
+		padding:1rem;	
+	}
+	
+	.card:hover .card-body  {
+	   transform:translateY(0);
+	   
+	   }
+	   
+	   
+	
+	

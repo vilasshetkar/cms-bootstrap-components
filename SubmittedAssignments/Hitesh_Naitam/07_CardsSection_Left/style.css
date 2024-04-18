@@ -1,0 +1,28 @@
+
+
+
+
+.card  {
+	position:relative;
+	transition:5s;
+	
+}
+
+  .card:hover;  {
+	  transform:translateY(-10px);
+	  
+  }
+  
+  .card - img top {
+	  position:relative;
+	  transition:300ms ease-in;
+	  
+  }
+  
+  .card-img-top:hover{
+	  transform:translateY(-40px)
+	  
+	 
+	  
+	
+	   
