@@ -1,0 +1,45 @@
+
+<style>
+.card:hover{
+		transform:scale(0.8);
+	}
+	img:hover{
+		transform:scale(1.2);
+	}
+ .root{
+	 --bs-border-radius: 2rem;
+	 --bs-border-width: 2px;
+ }
+	.card{
+		border-width: 5px;
+	}
+	.border-2{
+		border-width:5px;
+	}
+	.btn-primary:hover {
+    margin: 0.4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #ececec;
+    text-decoration: green;
+    color: #666;
+	}
+	
+	.btn-primary:hover-shadow {
+    display: inline-block;
+    position: relative;
+    transition-duration: 0.9s;
+    transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0)
+	}
+	
+	.h2-border {
+		display: inline-block;
+		width: 70px;
+		height: 70px;
+		margin: 6px;
+  }
+  
+	</style>
