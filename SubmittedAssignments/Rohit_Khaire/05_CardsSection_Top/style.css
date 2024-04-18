@@ -1,0 +1,33 @@
+
+.card{
+  height: auto;
+  width: auto;
+  transition: 2s;
+  transform: scale(1);
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+@keyframes pulse {
+    from {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3); 
+    }
+    to {
+      transform: scale(1.1);
+      box-shadow: 0 0 0 5px rgba(0, 0, 0, 0); 
+    }
+  }
+  
+
+  .pulse:hover {
+    animation: pulse 1.5s ease-in-out; 
+  }
+  
+ 
+  .pulse {
+    border-radius: 5px; }
+    
+  

@@ -1,0 +1,12 @@
+.underline:hover{
+    text-decoration: underline;
+
+}
+
+.card{
+    filter:grayscale(100%)
+}
+
+.card:hover{
+    filter: grayscale(0%);
+}
