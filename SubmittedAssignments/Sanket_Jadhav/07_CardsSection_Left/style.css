@@ -1,0 +1,14 @@
+.card {
+  transition: filter 0.3s ease;
+}
+
+.card:hover {
+  filter: blur(2px);
+}
+.card2{
+margin-top:50px;
+}
+.card-img-top {
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
