@@ -1,0 +1,45 @@
+    .container
+    {
+       background-color: cornsilk; 
+    }    
+    .card-img-top:hover, .card-img-top:focus, .card-img-top:active 
+    {
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }    
+    .card-img-top
+    {
+        display: inline-block;
+        vertical-align: mir
+        ddle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+    .card-body
+    {
+        background-color: rgb(192,190,243);
+        color: darkslategrey;
+    }
+    .mb-3
+    {
+        font-family: fantasy; 
+        color: darkolivegreen;
+    }
+    #one
+    {
+        text-align: center; 
+        color: blueviolet; 
+        font-style: italic;
+    }
+    #two
+    {
+        text-align: left; 
+        color: black; 
+        font-style: italic;
+    }    

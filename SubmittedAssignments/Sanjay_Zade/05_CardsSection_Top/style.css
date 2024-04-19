@@ -1,0 +1,48 @@
+.card-img-top:hover, .card-img-top:focus, .card-img-top:active 
+{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.card-img-top
+{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+#zero
+{
+    color:whitesmoke;
+}
+#one
+{
+    background-color: rgb(39,24,16); 
+    border: slategray;
+}
+.card-title1
+{
+    color:whitesmoke;
+}
+#two
+{
+    background-color: rgb(201, 147, 143); 
+    border: slategray;
+}
+#three
+{
+    background-color: rgb(223, 148, 227); 
+    border: slategray;
+}
+.mb-3
+{
+    color: chocolate;
+}
+#four
+{
+    color: brown; 
+    text-align: center;
