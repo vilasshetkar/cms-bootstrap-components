@@ -1,0 +1,153 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+        .card {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+			cursor:pointer;
+			color: black;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card .card-body {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem;
+            background-color: transparent;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            
+        }
+
+        .card:hover .card-body {
+            transform: translateY(0);
+            opacity: 1;
+        }
+		.hover-effect{
+			color: red;
+			transition: all 300ms;
+			position: relative;
+		}
+		.hover-effect:hover{
+			color: blue;
+			text-shadow:2px 2px 2px black;
+		}
+		.hover-effect:after{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			width: 50px;
+			height: 5px;
+		}
+    </style>
+	 <h2 class="mb-3 text-center shadow hover-effect"><strong>Hotel Patil</strong></h2>
+<section class="container">
+    <div class="py-5">
+        <div class="row d-flex">
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/thali2.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Panjabi Thali</h3>
+                        <div class="pb-1 text-muted">
+                            <p>One disadvantage of Lorum Ipsum is that in certain letters which is said more than.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/fish.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Fish Thali</h3>
+                        <div class="pb-1 text-muted">
+                            <p>The most well-known dummy text is the 'Lorem', which well-known is said which is said.
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/thali.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Veg Thali</h3>
+                        <div class="pb-1 text-muted">
+                            <p>Moreover, in Latin only words at the beginning of sentences which is said are
+                                capitalized.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/as.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Veg Thali</h3>
+                        <div class="pb-1 text-muted">
+                            <p>Moreover, in Latin only words at the beginning of sentences which is said are
+                                capitalized.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/pa.jpeg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Veg Thali</h3>
+                        <div class="pb-1 text-muted">
+                            <p>Moreover, in Latin only words at the beginning of sentences which is said are
+                                capitalized.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="col-md-4">
+                <div class="card shadow">
+                    <img src="img/thali3.webp" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Veg Thali</h3>
+                        <div class="pb-1 text-muted">
+                            <p>Moreover, in Latin only words at the beginning of sentences which is said are
+                                capitalized.</p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<br><br>
+       
+        <h3>Good Food Good Mood!</h3>
+        <div class="mb-4 text-center">
+            <p>Our core business is to produce Automatic Jaggery Plant means manufacturing Jagger's in airtight containers. This process is called Panela Vessel Technology. This technology is hygienic and beneficial for health. Therefore, the essential elements in Jaggery remain intact. We have done 10 such multiple projects and are going to do more in the future.</p>
+        </div>
+
+    </div>
+</section>
