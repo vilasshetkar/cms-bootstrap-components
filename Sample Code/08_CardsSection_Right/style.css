@@ -1,0 +1,18 @@
+ .card  { 
+	 transition: all 0.3;
+ } 
+  
+  .card:hover {
+    transform:translateY(-10px);
+	box-shadow:5px 5px 5px 5px rgba (44, 44, 44, 0.5);
+	
+	}
+	
+	.card-body {
+		padding:1rem;	
+	}
+	
+	   
+	   
+	
+	
