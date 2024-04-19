@@ -1,0 +1,105 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+ <style>
+        /* Define wobble animation */
+        @keyframes wobble {
+            0% { transform: translateX(0); }
+            15% { transform: translateX(-25%) rotate(-5deg); }
+            30% { transform: translateX(20%) rotate(3deg); }
+            45% { transform: translateX(-15%) rotate(-3deg); }
+            60% { transform: translateX(10%) rotate(2deg); }
+            75% { transform: translateX(-5%) rotate(-1deg); }
+            100% { transform: translateX(0); }
+        }
+
+        /* Define skew animation */
+        @keyframes skew {
+            0% { transform: skew(0deg); }
+            25% { transform: skew(5deg); }
+            50% { transform: skew(-5deg); }
+            75% { transform: skew(3deg); }
+            100% { transform: skew(0deg); }
+        }
+
+        /* Apply animations to card on hover */
+        .card:hover {
+            animation: wobble 1s ease-in-out;
+        }
+
+        .card:hover .card-img-top {
+            animation: skew 1s ease-in-out;
+        }
+    </style>
+
+
+
+
+<section class="container">
+    <div class="py-5">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row d-flex">
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Placeholder image">
+                            <div class="card-body">
+                                <h3 class="card-title">Fully Responsive</h3>
+                                <div class="pb-1 text-muted">
+                                    <p>One disadvantage of Lorum Ipsum is that in certain letters which is said more
+                                        than.</p>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Placeholder image">
+                            <div class="card-body">
+                                <h3 class="card-title">Fresh Layouts</h3>
+                                <div class="pb-1 text-muted">
+                                    <p>The most well-known dummy text is the 'Lorem', which well-known is said which is
+                                        said.
+                                    </p>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Placeholder image">
+                            <div class="card-body">
+                                <h3 class="card-title">Modern Workflow</h3>
+                                <div class="pb-1 text-muted">
+                                    <p>Moreover, in Latin only words at the beginning of sentences which is said are
+                                        capitalized.</p>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-3 text-center">Template Features</h2>
+                <h3>this is subheading</h3>
+                <div class="mb-4 text-center">
+                    <p>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit laboriosam nisi
+                        commodi
+                        consequatur.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
