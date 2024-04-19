@@ -1,0 +1,72 @@
+	.ab{
+		--bs-body-font-weight: 400;
+	}
+	:root{
+		--bs-body-font-weight: 700;
+		--bs-border-radius: 1.375rem;
+	}
+	.card{
+		--bs-card-spacer-y: 2rem;
+	}
+	.col-md-3{
+		background-image: url("https://demo2.wpthemego.com/themes/sw_revo/demo9/wp-content/uploads/2018/12/bn8.jpg");
+		height:544px;
+		width: 196px;
+		opacity: 1.0;
+	}
+	.col-md-3:hover {
+		opacity: 0.5;
+	}
+	.cd{
+		position: absolute;
+		margin-left: 10rem;
+		margin-top: -1rem;
+	}
+	.ab{
+		opacity: 0;
+		color: #B71C1C;
+		position: absolute;
+		margin-top: 5rem;
+		margin-left: 9rem;
+	}
+	.card:hover .ab{
+		position: absolute;
+		opacity: 1.0;
+		margin-top: 7rem;
+		animation:example 1s 1;
+	}
+	@keyframes example {
+		from {margin-top: 5rem; }
+		to {margin-top: 7rem;}
+	}
+	.mb-3 {
+		position: absolute;
+		margin-left: 4rem;
+		margin-top: 27rem;
+		display: none;
+	}
+	.card:hover .mb-3{
+		display:block;
+		position: absolute;
+		margin-top: 20rem;
+		animation:example1 1s 1;
+	}
+	@keyframes example1 {
+		from {margin-top: 27rem; }
+		to {margin-top: 20rem;}
+	}
+	.card:hover .bc{
+		display:none;
+	}
+	:root .btn-primary{
+		--bs-btn-color: #fc0000;
+		--bs-btn-bg: #ffffff;
+		--bs-btn-border-color: #fc0000;
+		--bs-btn-hover-color: #fff;
+		--bs-btn-hover-bg: #fc0000;
+		--bs-btn-hover-border-color: #fc0000;
+		--bs-btn-focus-shadow-rgb: 49, 132, 253;
+		--bs-btn-active-color: #fff;
+		--bs-btn-active-bg: #fc0000;
+		--bs-btn-active-border-color: #fc0000;
+	}

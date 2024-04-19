@@ -1,0 +1,19 @@
+
+	.card:hover{
+		transition:all 0.3s;
+		transform: scale(1.05);
+	}
+	:root{
+		--bs-border-radius:1.375rem;
+	}
+	.ab{
+		margin-top: -2rem;
+		font-family: Okra, Helvetica, sans-serif;
+	}
+	h3{
+		--bs-heading-color:#f70000a6;
+		transform:all 0.3s;
+	}
+	.h3:hover{
+		--bs-heading-color:#f20808;
+	}
