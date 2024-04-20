@@ -1,0 +1,120 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<style>
+        .card {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+			cursor:pointer
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card .card-body {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem;
+            background-color: transparent;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+			color: #fafafa;
+            
+        }
+		p{
+			color: #fafafa;
+		}
+
+        .card:hover .card-body {
+            transform: translateY(0);
+            opacity: 1;
+        }
+		.hover-effect{
+			color: red;
+			transition: all 300ms;
+			position: relative;
+		}
+		.hover-effect:hover{
+			color: Blue;
+			text-shadow: 2px 2px 2px black;
+		}
+		.hover-effect:after{
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			width: 50px;
+			height: 5px;
+		}
+		.sam{
+			color: black;
+		}
+		
+    </style>
+
+<section class="container">
+    <div class="py-5">
+        <div class="row d-flex">
+            <div class="col">
+                <div class="card">
+                    <img src="img/ram mandir.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Ram Mandir</h3>
+                        <div class="pb-1 text-muted">
+                            <p>Ram Mandir, Ayodhya, a grand Hindu temple inaugurated on January 22, 2024, 
+							at a site in Ayodhya, Uttar Pradesh, India, believed to be the birthplace of the Hindu deity Ram. 
+						  </p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/getway of india.jpg" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Getway of India</h3>
+                        <div class="pb-1 text-muted">
+                            <p>The Gateway of India is an arch-monument completed in 1924 on the waterfront of Mumbai (Bombay), India. 
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="img/lakshadweep.webp" class="card-img-top" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Lakshadweep</h3>
+                        <div class="pb-1 text-muted">
+                            <p>Lakshadweep is a union territory of India. It is an archipelago of 36 islands divided into three island subgroups
+                             </p>
+                        </div>
+                        <div class="d-flex">
+                            <a href="https://dev.erp.apnasite.in/" class="text-dark text-decoration-none"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mb-3 text-center">India</h2>
+        <h3> The country of Beautiful culture</h3>
+        <div class="mb-4 text-center">
+            <p class="sam">India, officially the Republic of India, is a country in South Asia. 
+			It is the seventh-largest country by area, the most populous country as of June 2023; and from the time of its independence in 1947,
+			the world's most populous democracy.</p>
+               
+        </div>
+
+    </div>
+</section>
