@@ -1,0 +1,16 @@
+.card{
+	height: 95%;
+	transition: all 0.3s;
+}
+
+
+h3:hover,
+span.fw-bold:hover{
+	text-decoration: underline;
+	padding-bottom: 3px;
+}
+
+.card:hover{
+	transform: translateY(-5px);
+	box-shadow: 1px 1px 3px 3px gray;
+}

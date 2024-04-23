@@ -1,0 +1,19 @@
+.card{
+	transition: all 0.3s;
+}
+
+.card:hover{
+	transform: scale(1.15);
+}
+
+.absolute{
+	position: absolute;
+	left: 10px;
+	bottom: 70px;
+}
+
+.absolute-2{
+	position: absolute;
+	left: 10px;
+	bottom: 100px;
+}

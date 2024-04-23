@@ -1,0 +1,16 @@
+.card{
+	transition: transform 0.3s ease-in;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.card:hover{
+	transform: scale(1.1) perspective(1px) translateZ(0);
+}
+
+h3:hover{
+	text-decoration: underline;
+	padding-bottom: 2px;
+}

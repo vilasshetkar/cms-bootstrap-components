@@ -1,0 +1,12 @@
+.card{
+	transition: all 0.3s;
+}
+
+.card:hover{
+	transform: translate(5px) scaleY(1.1);
+	box-shadow: 5px 5px 5px 5px gray;
+}
+
+.text-muted p{
+	top: 5px;
+}
