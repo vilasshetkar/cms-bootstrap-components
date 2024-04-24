@@ -1,0 +1,11 @@
+.card{
+    transition:all 0.5s;
+}
+.card:hover{
+    transform: translateY(.1px) scale(1.1);
+    box-shadow: 1px 1px 3px 3px gray;
+}
+.card-body:hover{
+    text-decoration: underline;
+
+}
