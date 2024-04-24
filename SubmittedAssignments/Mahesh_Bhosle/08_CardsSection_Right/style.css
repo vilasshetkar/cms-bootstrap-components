@@ -1,0 +1,18 @@
+/* .card{
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: translateY(10px) scale(1.2);
+    box-shadow: 5px 5px 10px 5px red;
+} */
+.monkey{
+    position: relative;
+}
+.lion{
+    position: absolute;
+    
+    
+}
+.lion:hover{
+display: none;
+}
