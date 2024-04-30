@@ -1,0 +1,35 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!-- Card - Image Left -->
+<div class="card" style="width: 600px;">
+    <div class="row">
+        <!-- Image -->
+        <div class="col-md-7">
+            <img src="my photo.jpg" class="card-img" alt="Placeholder image">
+        </div>
+
+        <!-- Card - Image Left -->
+        <div class="col-md-5">
+            <!-- Card Body -->
+            <div class="card-body">
+                <!-- Card Header -->
+                <h5 class="card-title text-primary-emphasis">Tejas Bansode</h5>
+                <!-- Card Body Content -->
+                <p class="card-text">I am committed to growing as a professional developer and delivering high-quality
+                    work.my goal is to develop proficiency in HTML,
+                    CSS, and JavaScript, and collaborate on challenging projects that drive industry innovation
+                    card's content.</p>
+                <!-- Card Footer -->
+                <button type="button" onclick="Request()" class="btn btn-success">Send Invitation</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    function Request() {
+        var button = document.querySelector(".btn.btn-success");
+        button.innerText = "Thank you";
+    }
+</script>
