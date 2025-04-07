@@ -1,0 +1,78 @@
+body{
+	background: lightgray;
+}
+
+  .card {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+    background: #2098D1;
+    transition-property: color;
+    transition-duration: 0.3s;
+		height: 100%;
+}
+
+.card-body:before{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+	
+	.card:hover .card-body{
+    background: #e1e1e1;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+@-webkit-keyframes zoomOutUp {
+    40% {
+        -webkit-animation-timing-function: cubic-bezier(.55,.055,.675,.19);
+        animation-timing-function: cubic-bezier(.55,.055,.675,.19);
+        opacity: 1;
+        -webkit-transform: scale3d(.475,.475,.475) translate3d(0,60px,0);
+        transform: scale3d(.475,.475,.475) translate3d(0,60px,0)
+    }
+
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.175,.885,.32,1);
+        animation-timing-function: cubic-bezier(.175,.885,.32,1);
+        opacity: 0;
+        -webkit-transform: scale3d(.1,.1,.1) translate3d(0,-2000px,0);
+        transform: scale3d(.1,.1,.1) translate3d(0,-2000px,0)
+    }
+}
+
+@keyframes zoomOutUp {
+    40% {
+        -webkit-animation-timing-function: cubic-bezier(.55,.055,.675,.19);
+        animation-timing-function: cubic-bezier(.55,.055,.675,.19);
+        opacity: 1;
+        -webkit-transform: scale3d(.475,.475,.475) translate3d(0,60px,0);
+        transform: scale3d(.475,.475,.475) translate3d(0,60px,0)
+    }
+
+    to {
+        -webkit-animation-timing-function: cubic-bezier(.175,.885,.32,1);
+        animation-timing-function: cubic-bezier(.175,.885,.32,1);
+        opacity: 0;
+        -webkit-transform: scale3d(.1,.1,.1) translate3d(0,-2000px,0);
+        transform: scale3d(.1,.1,.1) translate3d(0,-2000px,0)
+    }
+}
+
+.animate__zoomOutUp {
+    -webkit-animation-name: zoomOutUp;
+   
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+		animation: zoomOutUp 2s linear;
+		 animation-name: zoomOutUp
+}
