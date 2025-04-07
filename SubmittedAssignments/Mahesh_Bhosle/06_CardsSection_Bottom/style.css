@@ -1,0 +1,18 @@
+.card-img-overlay{
+    opacity: 0;
+    transition:  0.5s;
+    background-color:rgba(0, 0,0,0);
+}
+.card-img-overlay:hover{
+    opacity: 1;
+    background-color:rgba(0, 0,0,0.5);
+
+}
+.card{
+    transform: scale(1);
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.5);
+    
+}
