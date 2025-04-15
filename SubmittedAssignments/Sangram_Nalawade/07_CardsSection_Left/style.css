@@ -1,0 +1,10 @@
+
+        .card-body {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card-body:hover{
+
+			text-shadow: 2px 2px 5px red;
+            transform: scale(1.2);
+        }
